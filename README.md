@@ -1,7 +1,7 @@
 # Personal Website
 This is my personal website, built using HTML, CSS, and JavaScript. The website includes information about me, my skills, and my projects.
 
-#Technologies Used
+## Technologies Used
 HTML
 CSS
 JavaScript
