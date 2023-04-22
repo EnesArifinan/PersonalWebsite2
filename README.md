@@ -5,11 +5,11 @@ This is my personal website, built using HTML, CSS, and JavaScript. The website 
 HTML
 CSS
 JavaScript
-#Features
+## Features
 Clean and modern design
 Animated effects and transitions
 Interactive elements, such as a navigation bar and a contact form
-#Installation
+## Installation
 To run this website locally, you can follow these steps:
 
 Clone the repository to your local machine:
@@ -19,11 +19,11 @@ Copy code
 git clone https://github.com/EnesArifinan/NewPersonalWebsite.git
 Open the index.html file in your web browser.
 
-#Credits
+## Credits
 This website was created by Your Name. It was built using the following resources:
 
 Font Awesome - A library of icons and fonts for web projects
 Google Fonts - A library of fonts for web projects
 
-#Contact
+## Contact
 If you have any questions or feedback, you can reach me at enesarifinan@gmail.com.
