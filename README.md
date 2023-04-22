@@ -23,6 +23,7 @@ Open the index.html file in your web browser.
 This website was created by Enes Arifinan. It was built using the following resources:
 
 Font Awesome - A library of icons and fonts for web projects
+
 Google Fonts - A library of fonts for web projects
 
 ## Contact
