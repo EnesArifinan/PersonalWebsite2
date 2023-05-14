@@ -3,6 +3,9 @@ font-family: 'Comfortaa', cursive;
 font-family: 'Roboto', sans-serif;
 my main fonts 
 */
+* {
+  transition: all 0.3s ease;
+}
 body {
   background-color: #79031d;
   margin-right: 15px;
@@ -27,7 +30,8 @@ body {
   font-size: 25px;
 }
 .navbarcontact a:hover {
-  background-color: blueviolet;
+  background-color: black;
+  color: white;
 }
 /*             burdan sonrası     */
 input[type="text"],

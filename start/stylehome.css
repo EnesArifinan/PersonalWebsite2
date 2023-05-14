@@ -1,54 +1,52 @@
-
 /*
 font-family: 'Comfortaa', cursive;
 font-family: 'Roboto', sans-serif;
 font-family: 'Open Sans', sans-serif;
 my main fonts 
 */
-body{
-    background-color: aliceblue;
-    margin-left: 300px;
-    margin-right: 300px;
-
+* {
+  transition: all 0.3s ease;
 }
-.topnav{
-    overflow: hidden;
-    background-color: #FFD500;
-    position: fixed; /* Set the position to fixed */
-    /*top: 400px;  Position the navigation bar at the top of the page */
-    left: 300px; /* Position the navigation bar at the left of the page */
-    right: 300px;
-    width: 70%; /* Set the width of the navigation bar to 100% */
-    
+body {
+  background-color: aliceblue;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #ffd500;
+  position: fixed; /* Set the position to fixed */
+  /*top: 400px;  Position the navigation bar at the top of the page */
+  left: 300px; /* Position the navigation bar at the left of the page */
+  right: 300px;
+  width: 70%; /* Set the width of the navigation bar to 100% */
 }
 .topnav a {
-    color: black;
-    float: right;
-    text-align: center;
-    padding: 17px 17px;
-    text-decoration: none;
-    font-size: 25px;
-    font-family: 'Roboto', sans-serif;
-    text-transform: uppercase;
-
-    
+  color: black;
+  float: right;
+  text-align: center;
+  padding: 17px 17px;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
 }
-.topnav a:hover{
-    background-color: blueviolet;
+.topnav a:hover {
+  background-color: black;
+  color: white;
 }
 .topnav a.active {
-    float: left;
+  float: left;
 }
 
 img {
-    height: 500px;
-    width: auto;
-    float: right;
-    border-radius: 30px;
-    padding: 125px 60px 150px 150px;
-    border-radius: 50%;
-  
-} 
+  height: 500px;
+  width: auto;
+  float: right;
+  border-radius: 30px;
+  padding: 125px 60px 150px 150px;
+  border-radius: 50%;
+}
 /*burası line kısmı web sitesi tasarlanacagi vakitki hizalama cizgileri
 .cizgi {
     margin-top: 200px;
@@ -57,145 +55,138 @@ img {
 
 }   */
 
-
 /*burasi fontu vermek için kullanılacak yer*/
 .metin {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 19px;
-    line-height: 1.7;
+  font-family: "Open Sans", sans-serif;
+  font-size: 19px;
+  line-height: 1.7;
 }
 #giris {
-    padding: 300px 125px 125px 40px;
-    font-size: 25px;
-    text-align: center;
+  padding: 300px 125px 125px 40px;
+  font-size: 25px;
+  text-align: center;
 }
 
 #giris2 {
-    
-    margin: 200px 100px;
-    padding: 100px;
-    border: 2px solid black;
-    border-radius: 30px;
-  
+  margin: 200px 100px;
+  padding: 100px;
+  border: 2px solid black;
+  border-radius: 30px;
 }
 #giris3 {
-    text-align: center;
-    font-size: 35px;
-    margin-top: 200px;
-    text-transform: uppercase;
+  text-align: center;
+  font-size: 35px;
+  margin-top: 200px;
+  text-transform: uppercase;
 }
 #ggiris3 {
-    text-align: center;
-    font-size: 35px;
-    margin-top: 200px;
-    text-transform: uppercase;
+  text-align: center;
+  font-size: 35px;
+  margin-top: 200px;
+  text-transform: uppercase;
 }
 #gggiris3 {
-    text-align: center;
-    font-size: 35px;
-    margin-top: 200px;
-    text-transform: uppercase;
-}#ggggiris3 {
-    text-align: center;
-    font-size: 35px;
-    margin-top: 200px;
-    text-transform: uppercase;
+  text-align: center;
+  font-size: 35px;
+  margin-top: 200px;
+  text-transform: uppercase;
+}
+#ggggiris3 {
+  text-align: center;
+  font-size: 35px;
+  margin-top: 200px;
+  text-transform: uppercase;
 }
 #giris4 {
-    padding: 125px 125px 55px 0px;
+  padding: 125px 125px 55px 0px;
 }
 #giris6 {
-    font-family: 'Roboto', sans-serif;
-    font-size: 30px;
-    text-align: center;
-    margin: 200px;
-    margin-top: 350px;
-    margin-bottom: 450px;
-    text-transform: uppercase;
-
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  text-align: center;
+  margin: 200px;
+  margin-top: 350px;
+  margin-bottom: 450px;
+  text-transform: uppercase;
 }
 #giris7 {
-    margin:220px 650px 100px 40px ;
-    padding:25px ;
-    font-size: 25px;
-    text-align: center;
-    border: 2px solid black;
-    border-radius: 30px;
+  margin: 220px 650px 100px 40px;
+  padding: 25px;
+  font-size: 25px;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 30px;
 }
 #giris8 {
-    border: 2px solid black;
-    font-size: 30px;
-    padding: 10px;
-    text-align: center;
-    margin: 100px 650px 325px 40px ;
-    text-transform: uppercase;
-    border-radius: 30px;
+  border: 2px solid black;
+  font-size: 30px;
+  padding: 10px;
+  text-align: center;
+  margin: 100px 650px 325px 40px;
+  text-transform: uppercase;
+  border-radius: 30px;
 }
 #giris8:hover {
-    background-color: black;
-    color: white;
-    text-transform: uppercase;
+  background-color: black;
+  color: white;
+  text-transform: uppercase;
 }
-
-
 
 /* Style the footer container */
 .footer {
-    background-color: aliceblue;
-    color:black;
-    padding: 30px;
-    margin-top: 50px;
-    clear: both;
-    font-family: sans-serif;
-   
-    
+  background-color: aliceblue;
+  color: black;
+  padding: 30px;
+  margin-top: 50px;
+  clear: both;
+  font-family: sans-serif;
 }
 
 /* Style the columns inside the footer */
 .footer .column {
-    float: left;
-    width: 20%;
-    padding: 0 20px;
-    box-sizing: border-box;
+  float: left;
+  width: 20%;
+  padding: 0 20px;
+  box-sizing: border-box;
 }
 
 /* Style the social media icons */
 .footer i {
-    font-size: 20px;
-    margin-right: 10px;
-    color: black;
-    padding: 10px;
-    border-radius: 50%;
-    cursor: pointer;
+  font-size: 20px;
+  margin-right: 10px;
+  color: black;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
 }
 
 /* Add hover effect to social media icons */
 .footer i:hover {
-    background-color: #ae6e6e;
+  background-color: #ae6e6e;
 }
 
 /* Style the links in the footer */
 .footer a {
-    color: black;
-    display: block;
-    margin-bottom: 10px;
-    text-decoration: none;
+  color: black;
+  display: block;
+  margin-bottom: 10px;
+  text-decoration: none;
 }
 
 /* Add hover effect to links in the footer */
 .footer a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 /* Clear floats after the columns */
 .footer:after {
-    content: "";
-    display: table;
-    clear: both;
+  content: "";
+  display: table;
+  clear: both;
 }
 #last {
-    font-family: sans-serif;
-    margin-top: 40px;
-    font-size: 12px;
-    text-align: center;
+  font-family: sans-serif;
+  margin-top: 40px;
+  font-size: 12px;
+  text-align: center;
 }
